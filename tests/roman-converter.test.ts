@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { RomanConverter } from "../src/roman-converter";
 
 describe("Roman Converter Tests", () => {
   it("should convert 1 to I", () => {
