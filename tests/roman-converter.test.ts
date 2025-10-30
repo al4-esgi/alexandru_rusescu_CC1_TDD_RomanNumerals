@@ -16,4 +16,14 @@ describe("Roman Converter Tests", () => {
     const romanConverter = new RomanConverter();
     expect(romanConverter.convert(3)).toBe("III");
   });
+
+  it("should convert 4 to IV", () => {
+    const romanConverter = new RomanConverter();
+    expect(romanConverter.convert(4)).toBe("IV");
+  });
+
+  it("should convert 9 to IX", () => {
+    const romanConverter = new RomanConverter();
+    expect(romanConverter.convert(9)).toBe("IX");
+  });
 });
